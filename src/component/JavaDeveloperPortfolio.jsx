@@ -274,13 +274,13 @@ export default function JavaDeveloperPortfolio() {
           </div>
 
           <div className="flex gap-4 animate-fadeInUp" style={{animationDelay: '0.8s', animationFillMode: 'backwards'}}>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className={`w-12 h-12 ${isDark ? 'bg-zinc-900 border-zinc-800 hover:border-emerald-500' : 'bg-white border-zinc-200 hover:border-emerald-500'} border rounded-xl flex items-center justify-center transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-emerald-500/10`}>
+            <a href="https://github.com/pratikdholakiya0" target="_blank" rel="noopener noreferrer" className={`w-12 h-12 ${isDark ? 'bg-zinc-900 border-zinc-800 hover:border-emerald-500' : 'bg-white border-zinc-200 hover:border-emerald-500'} border rounded-xl flex items-center justify-center transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-emerald-500/10`}>
               <Github size={20} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={`w-12 h-12 ${isDark ? 'bg-zinc-900 border-zinc-800 hover:border-emerald-500' : 'bg-white border-zinc-200 hover:border-emerald-500'} border rounded-xl flex items-center justify-center transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-emerald-500/10`}>
+            <a href="https://linkedin.com/in/pratik-dholakiya" target="_blank" rel="noopener noreferrer" className={`w-12 h-12 ${isDark ? 'bg-zinc-900 border-zinc-800 hover:border-emerald-500' : 'bg-white border-zinc-200 hover:border-emerald-500'} border rounded-xl flex items-center justify-center transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-emerald-500/10`}>
               <Linkedin size={20} />
             </a>
-            <a href="mailto:developer@example.com" className={`w-12 h-12 ${isDark ? 'bg-zinc-900 border-zinc-800 hover:border-emerald-500' : 'bg-white border-zinc-200 hover:border-emerald-500'} border rounded-xl flex items-center justify-center transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-emerald-500/10`}>
+            <a href="mailto:dholakiya225@gmail.com" className={`w-12 h-12 ${isDark ? 'bg-zinc-900 border-zinc-800 hover:border-emerald-500' : 'bg-white border-zinc-200 hover:border-emerald-500'} border rounded-xl flex items-center justify-center transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-emerald-500/10`}>
               <Mail size={20} />
             </a>
           </div>
