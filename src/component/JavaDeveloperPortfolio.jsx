@@ -41,22 +41,35 @@ export default function JavaDeveloperPortfolio() {
       title: "Enterprise E-Commerce Platform",
       description: "Microservices-based e-commerce platform using Spring Boot and Apache Kafka",
       tech: ["Java 17", "Spring Boot", "Kafka", "PostgreSQL", "Redis", "Docker"],
-      github: "https://github.com/",
+      github: "https://github.com/pratikdholakiya0/JobPortalBackend",
       demo: "https://demo.com"
     },
     {
       title: "JobStream – Scalable Job Portal",
       description: "Microservices-based job portal supporting job postings, candidate profiles, resume uploads, and real-time application notifications using event-driven architecture.",
-      tech: ["Java", "Spring Boot", "Spring WebFlux", "MongoDB", "RabbitMQ", "React"],
-      github: "https://github.com",
+      tech: ["Java", "Spring Boot", "Spring WebFlux", "MongoDB", "Apache Kafka", "React"],
+      github: "https://github.com/pratikdholakiya0/e-commerce-store",
       demo: "https://demo.com"
     },
     {
       title: "AI-Based Student Performance Evaluation System",
       description: "Intelligent academic analytics platform that evaluates student performance using machine learning models. Built with a Spring Boot backend and integrated Flask-based ML APIs for predictive scoring, performance insights, and personalized recommendations.",
       tech: ["Java 21", "Spring Boot", "FAST API", "Python ML", "MySQL", "REST APIs"],
-      github: "https://github.com",
+      github: "https://github.com/code-cosmos-tech/student-performance-evaluation-system",
       demo: "https://demo.com"
+    },
+    {
+      title: "Campus Care: Full-Stack Student Wellness Platform",
+      description: "A comprehensive MERN-based healthcare and academic support system. It streamlines appointment scheduling for counseling and health services, featuring secure JWT authentication, real-time emergency admin alerts via Nodemailer, and an interactive wellness resource toolkit.",
+      tech: ["MongoDB", "Express.js", "React (Vite)", "Node.js", "Framer Motion", "JWT", "Nodemailer", "React Context API"],
+      github: "https://github.com/code-cosmos-tech/campuscare"
+    },
+    {
+      title: "AgroCare AI: Intelligent Yield Prediction Platform",
+      description: "An AI-driven agricultural analytics platform designed for farmers and Farmer Producer Organizations (FPOs). It leverages machine learning to predict crop yields and provides data-backed actionable recommendations to optimize soil health and maximize agricultural productivity.",
+      tech: ["Python ML", "FastAPI", "React", "Scikit-Learn", "Pandas", "PostgreSQL", "Data Visualization"],
+      github: "https://github.com/code-cosmos-tech/agrocare-ai",
+      demo: "https://agro-care-ai.vercel.app/"
     }
   ];
 
@@ -240,7 +253,7 @@ export default function JavaDeveloperPortfolio() {
           </h1>
 
           <p className={`text-lg sm:text-xl ${isDark ? 'text-zinc-400' : 'text-zinc-600'} max-w-2xl mb-8 animate-fadeInUp`} style={{animationDelay: '0.4s', animationFillMode: 'backwards'}}>
-            Specialized in enterprise applications, microservices architecture, and cloud-native development with 6+ years of experience delivering high-performance Java solutions.
+            Specialized in enterprise applications, microservices architecture, and cloud-native development with 1.5+ years of experience delivering high-performance Java solutions.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-8 animate-fadeInUp" style={{animationDelay: '0.6s', animationFillMode: 'backwards'}}>
