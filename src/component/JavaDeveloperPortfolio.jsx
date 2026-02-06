@@ -54,7 +54,7 @@ export default function JavaDeveloperPortfolio() {
     {
       title: "AI-Based Student Performance Evaluation System",
       description: "Intelligent academic analytics platform that evaluates student performance using machine learning models. Built with a Spring Boot backend and integrated Flask-based ML APIs for predictive scoring, performance insights, and personalized recommendations.",
-      tech: ["Java 21", "Spring Boot", "Flask", "Python ML", "MySQL", "REST APIs"],
+      tech: ["Java 21", "Spring Boot", "FAST API", "Python ML", "MySQL", "REST APIs"],
       github: "https://github.com",
       demo: "https://demo.com"
     }
@@ -77,9 +77,8 @@ export default function JavaDeveloperPortfolio() {
       period: "Oct 2025 - Nov 2025",
       location: "Remote",
       responsibilities: [
-        "Architected and developed microservices handling 500K+ requests/day",
+        "Architected and developed microservices using Spring Boot and Spring Cloud",
         "Led migration from monolithic to microservices architecture reducing deployment time by 70%",
-        "Mentored team of 5 junior developers and conducted code reviews",
         "Optimized database queries resulting in 40% performance improvement"
       ]
     }
@@ -291,7 +290,7 @@ export default function JavaDeveloperPortfolio() {
           <div className="grid lg:grid-cols-2 gap-12">
             <div className={`text-lg ${isDark ? 'text-zinc-400' : 'text-zinc-600'} space-y-6`}>
               <p>
-                I'm a Java Developer with a passion for creating efficient, scalable, and maintainable software solutions. With over 6 years of professional experience, I've worked on everything from monolithic applications to distributed microservices architectures.
+                I'm a Java Developer with a passion for creating efficient, scalable, and maintainable software solutions. With over 1.5 years of professional experience, I've worked on everything from monolithic applications to distributed microservices architectures.
               </p>
               <p>
                 My expertise lies in Spring Boot ecosystem, cloud technologies, and building RESTful APIs that power mission-critical applications. I believe in writing clean, testable code and following SOLID principles to ensure long-term maintainability.
@@ -303,10 +302,10 @@ export default function JavaDeveloperPortfolio() {
 
             <div className="grid grid-cols-2 gap-6">
               {[
-                { number: "6+", label: "Years Experience" },
-                { number: "50+", label: "Projects Completed" },
-                { number: "15+", label: "Technologies Mastered" },
-                { number: "4", label: "Certifications" }
+                { number: "1.5+", label: "Years Experience" },
+                { number: "10+", label: "Projects Completed" },
+                { number: "3+", label: "Technologies Mastered" },
+                { number: "2", label: "Certifications" }
               ].map((stat, index) => (
                 <div key={index} className={`${isDark ? 'bg-zinc-900 border-zinc-800 hover:border-emerald-500' : 'bg-zinc-50 border-zinc-200 hover:border-emerald-500'} border rounded-2xl p-6 transition-all hover:-translate-y-1 hover:shadow-xl hover:shadow-emerald-500/10`}>
                   <div className="text-4xl font-bold font-mono text-emerald-500 mb-2">{stat.number}</div>
